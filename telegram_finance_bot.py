@@ -245,4 +245,10 @@ async def main():
 
 if __name__ == "__main__":
     # Kod sintaksisini tekshirish va ishga tushirishga tayyorlash
-    print("Telegram Finance Bot Source Code generated properly.")
+    print("Telegram Finance Bot Source Code generated properly.")     # ... boshqa kodlar
+    
+    # Mana shu qator bo'lishi shart (kommentariyadan chiqaring):
+    if __name__ == '__main__':
+        dp.start_polling(bot) 
+
+
