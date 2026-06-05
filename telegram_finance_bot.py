@@ -250,5 +250,15 @@ if __name__ == "__main__":
     # Mana shu qator bo'lishi shart (kommentariyadan chiqaring):
     if __name__ == '__main__':
         dp.start_polling(bot) 
+# Eski (xato) holat:
+# dp.start_polling(bot)
+
+# Yangi (to'g'ri) holat:
+async def main():
+    await dp.start_polling(bot)
+
+if __name__ == "__main__":
+    import asyncio
+    asyncio.run(main())
 
 
